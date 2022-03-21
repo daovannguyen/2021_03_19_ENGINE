@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9D56B7F1-FA83-1FDC-7800-F736A91CB2FA}</ProjectGuid>
+    <ProjectGuid>{38644BAE-6717-4CAF-0465-A0923685BD4C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,26 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\MyProject\Script\CameraManager.cs" />
+    <Compile Include="Assets\MyProject\Script\AddColider.cs" />
+    <Compile Include="Assets\MyProject\Scenes\GetParent\MousePos.cs" />
+    <Compile Include="Assets\MyProject\Scenes\GetParent\MoveToPosition.cs" />
+    <Compile Include="Assets\MyProject\Tutorial\Default_HDR\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\MyProject\Script\AddVatLieu.cs" />
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\MyProject\Script\RaycastManager.cs" />
+    <Compile Include="Assets\MyProject\Script\WorkWithAnimation.cs" />
+    <Compile Include="Assets\MyProject\Scenes\GetParent\GetKeyAnimationCLip.cs" />
     <Compile Include="Assets\MyProject\Script\CameraAround.cs" />
+    <Compile Include="Assets\MyProject\Scenes\GetParent\ReadTextData.cs" />
+    <Compile Include="Assets\MyProject\Scenes\GetParent\GetChild.cs" />
+    <Compile Include="Assets\MyProject\Script\SaveTransform.cs" />
     <Compile Include="Assets\MyProject\Prefab\Hanger\Assest\Old Hangar\Demo\Script\ThirdPersonCamera.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MyProject\Scenes\GetParent\1.txt" />
+    <None Include="Assets\MyProject\Scenes\GetParent\data.txt" />
+    <None Include="Assets\MyProject\1.txt.txt" />
+    <None Include="Assets\MyProject\DataTransform.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
