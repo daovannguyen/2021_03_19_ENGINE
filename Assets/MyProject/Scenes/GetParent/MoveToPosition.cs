@@ -34,9 +34,9 @@ public class MoveToPosition : MonoBehaviour
         clip.legacy = true;
 
         // create a curve to move the GameObject and assign to the clip
-        SetCurve(ref clip, new List<float> { 0, 1}, new List<float> {x, x + target.x}, "localPosition.x");
-        SetCurve(ref clip, new List<float> { 0, 1}, new List<float> {y, y + target.y}, "localPosition.y");
-        SetCurve(ref clip, new List<float> { 0, 1}, new List<float> {y, z + target.z}, "localPosition.z");
+        SetCurve(ref clip, new List<float> { 0, 1, 2}, new List<float> {x, x + target.x, 100000}, "localPosition.x");
+        SetCurve(ref clip, new List<float> { 0, 1, 2}, new List<float> {y, y + target.y, 100000}, "localPosition.y");
+        SetCurve(ref clip, new List<float> { 0, 1, 2}, new List<float> {y, z + target.z, 100000}, "localPosition.z");
 
 
 

@@ -36,6 +36,7 @@ public class SaveTransform : MonoBehaviour
         StreamWriter streamWriter = new StreamWriter(path);
         streamWriter.WriteLine(text);
         streamWriter.Close();
+        Debug.Log("Hellllllllllllllllo");
         /*
         string path = "Assets/MyProject/1.txt";
         //Read the text from directly from the test.txt file

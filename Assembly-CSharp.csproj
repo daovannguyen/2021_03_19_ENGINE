@@ -70,6 +70,7 @@
     <Compile Include="Assets\MyProject\Scenes\GetParent\GetChild.cs" />
     <Compile Include="Assets\MyProject\Script\SaveTransform.cs" />
     <Compile Include="Assets\MyProject\Prefab\Hanger\Assest\Old Hangar\Demo\Script\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\MyProject\Scenes\GetParent\TestRayCast.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MyProject\Scenes\GetParent\1.txt" />
